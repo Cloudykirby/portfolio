@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Title" scroll>
+          <Header className="header-color" title="KC" scroll>
             <Navigation>
               <a
                 href=" https://cloudykirby.github.io/Kirby%20Chen%20Resume.pdf"
