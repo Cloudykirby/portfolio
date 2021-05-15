@@ -9,7 +9,7 @@ export default class Contacts extends Component {
         <div className="contact-banner">
           <h1>Contacts</h1>
           <div className="contacts-centering">
-            <div className="data_container">
+            <div className="social-contact">
               <a
                 href="https://www.linkedin.com/in/kirbyc6/"
                 target="_blank"
@@ -17,6 +17,7 @@ export default class Contacts extends Component {
               >
                 <i className="fab fa-linkedin" aria-hidden="true"></i>
               </a>
+              <p className="social-p">LinkedIn</p>
             </div>
             <div className="data_container">
               <div className="phone">

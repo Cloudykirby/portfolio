@@ -10,6 +10,7 @@ import {
   IconButton,
   CardText,
 } from "react-mdl";
+import CryptoLanding from "../Image/CryptoLanding.png";
 
 export default class Projects extends Component {
   constructor(props) {
@@ -23,7 +24,39 @@ export default class Projects extends Component {
           <Cell col={12}>
             <div className="content">
               <div className="projectSquare">
+                {/* Krypto Tracker */}
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background: `url(https://www.uktech.news/wp-content/uploads/2021/05/Crypto-Terms-898x505.jpg) center/cover`,
+                    }}
+                  >
+                    Crypto Tracker
+                  </CardTitle>
+                  <CardText>A Crypto Tracker building using Next.js</CardText>
+                  <CardActions border>
+                    <Button
+                      href="https://github.com/Cloudykirby/CryptoTracker"
+                      colored
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+
+                    <Button
+                      colored
+                      target="_blank"
+                      href="https://crypto-tracker-jet.vercel.app/"
+                    >
+                      App
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
                 {/* Boo Bash */}
+
                 <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
                   <CardTitle
                     style={{
