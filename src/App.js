@@ -10,12 +10,14 @@ function App() {
         <Layout>
           <Header className="header-color" title="KC" scroll>
             <Navigation>
+              <Link to="/">Home</Link>
               <a
                 href=" https://cloudykirby.github.io/Kirby%20Chen%20Resume.pdf"
                 target="_blank"
               >
                 Resume
               </a>
+
               <Link to="/projects">Projects</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/contact">Contact</Link>

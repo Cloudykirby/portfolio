@@ -10,7 +10,6 @@ import {
   IconButton,
   CardText,
 } from "react-mdl";
-import booBash from "../Image/Boobash.png";
 
 export default class Projects extends Component {
   constructor(props) {
@@ -35,15 +34,37 @@ export default class Projects extends Component {
                   >
                     Boo Bash
                   </CardTitle>
-                  <CardText>PlaceholderText</CardText>
+                  <CardText>
+                    Spooky 2D Multiplayer Capture-the-Flag game, built in Phaser
+                    You and your friends are having a spooky party...but noone
+                    brought pumpkins! Other ghosts are having the same problem,
+                    but pumpkins are limited! Be the first team to bring 10
+                    pumpkins back to win.
+                  </CardText>
                   <CardActions border>
-                    <Button colored>Github</Button>
-                    <Button colored>Youtube</Button>
-                    <Button colored>Application</Button>
+                    <Button
+                      href="https://github.com/2008-a-bst-grows-in-brooklyn/shrub-wars"
+                      colored
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      href="https://www.youtube.com/watch?v=aWSimwLwwXk"
+                      colored
+                      target="_blank"
+                    >
+                      Youtube
+                    </Button>
+                    <Button
+                      colored
+                      target="_blank"
+                      href="http://boo-bash.herokuapp.com/"
+                    >
+                      App
+                    </Button>
                   </CardActions>
-                  <CardMenu style={{ color: "#fff" }}>
-                    <IconButton name="share" />
-                  </CardMenu>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
                 {/* MazeGame */}
                 <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -51,20 +72,25 @@ export default class Projects extends Component {
                     style={{
                       color: "#fff",
                       height: "176px",
-                      background: `url(https://cdn.pixabay.com/photo/2017/10/10/16/55/halloween-2837936__340.png) center/cover`,
+                      background: `url(https://khn.org/wp-content/uploads/sites/2/2019/12/Getty-465412159_maze_1350.jpg) center/cover`,
                     }}
                   >
-                    Boo Bash
+                    Maze App
                   </CardTitle>
-                  <CardText>PlaceholderText</CardText>
+                  <CardText>
+                    A project done in 4 days to learn Pathfinding Algorithms and
+                    React Native
+                  </CardText>
                   <CardActions border>
-                    <Button colored>Github</Button>
-                    <Button colored>Youtube</Button>
-                    <Button colored>Application</Button>
+                    <Button
+                      colored
+                      href="https://github.com/Cloudykirby/Maze-app"
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
                   </CardActions>
-                  <CardMenu style={{ color: "#fff" }}>
-                    <IconButton name="share" />
-                  </CardMenu>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
                 {/* Cheese  */}
                 <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -72,20 +98,32 @@ export default class Projects extends Component {
                     style={{
                       color: "#fff",
                       height: "176px",
-                      background: `url(https://cdn.pixabay.com/photo/2017/10/10/16/55/halloween-2837936__340.png) center/cover`,
+                      background: `url(https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg) center/cover`,
                     }}
                   >
-                    Boo Bash
+                    Cheese E-Commerce
                   </CardTitle>
-                  <CardText>PlaceholderText</CardText>
+                  <CardText>
+                    E-Commerce site that sells cheeses. This application was
+                    created using React and Redux
+                  </CardText>
                   <CardActions border>
-                    <Button colored>Github</Button>
-                    <Button colored>Youtube</Button>
-                    <Button colored>Application</Button>
+                    <Button
+                      href="https://github.com/2008-FSA-Grace-Shopper-Cheese/GraceShopper"
+                      colored
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      colored
+                      target="_blank"
+                      href="https://grace-cheese-prime.herokuapp.com/"
+                    >
+                      App
+                    </Button>
                   </CardActions>
-                  <CardMenu style={{ color: "#fff" }}>
-                    <IconButton name="share" />
-                  </CardMenu>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
               </div>
             </div>
