@@ -24,8 +24,68 @@ export default class Projects extends Component {
           <Cell col={12}>
             <div className="content">
               <div className="projectSquare">
+                {/* Maze Game v2 */}
+                <Card
+                  shadow={5}
+                  style={{ width: "450", height: "350", margin: "auto" }}
+                >
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background: `url(https://khn.org/wp-content/uploads/sites/2/2019/12/Getty-465412159_maze_1350.jpg) center/cover`,
+                    }}
+                  >
+                    Maze Game V2
+                  </CardTitle>
+                  <CardText>
+                    Creates a randomily generated maze useing Eller's Algoritm
+                  </CardText>
+                  <CardActions border>
+                    <Button
+                      href="https://github.com/Cloudykirby/MazeGameV2"
+                      colored
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
+                {/* Covid Vaccine */}
+                <Card
+                  shadow={5}
+                  style={{ minWidth: "450", height: "350", margin: "auto" }}
+                >
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background: `url(https://www.clinicaltrialsarena.com/wp-content/uploads/sites/33/2021/04/covid-19-vaccine-mixing-shutterstock_1891563244.jpg) center/cover`,
+                    }}
+                  >
+                    Covid Vaccine
+                  </CardTitle>
+                  <CardText>
+                    Created a Vaccine scrapper that scrapes 30+ entries to show
+                    availability of the Covid Vaccine
+                  </CardText>
+                  <CardActions border>
+                    <Button
+                      href="https://github.com/Cloudykirby/Vaccine_Tracker"
+                      colored
+                      target="_blank"
+                    >
+                      Github
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
                 {/* Krypto Tracker */}
-                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                <Card
+                  shadow={5}
+                  style={{ minWidth: "450", height: "350", margin: "auto" }}
+                >
                   <CardTitle
                     style={{
                       color: "#fff",
@@ -55,9 +115,18 @@ export default class Projects extends Component {
                   </CardActions>
                   <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
+              </div>
+            </div>
+          </Cell>
+          <Cell col={12}>
+            <div className="content">
+              <div className="projectSquare">
                 {/* Boo Bash */}
 
-                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                <Card
+                  shadow={5}
+                  style={{ minWidth: "450", height: "350", margin: "auto" }}
+                >
                   <CardTitle
                     style={{
                       color: "#fff",
@@ -100,7 +169,10 @@ export default class Projects extends Component {
                   <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
                 {/* MazeGame */}
-                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                <Card
+                  shadow={5}
+                  style={{ minWidth: "450", height: "350", margin: "auto" }}
+                >
                   <CardTitle
                     style={{
                       color: "#fff",
@@ -126,7 +198,10 @@ export default class Projects extends Component {
                   <CardMenu style={{ color: "#fff" }}></CardMenu>
                 </Card>
                 {/* Cheese  */}
-                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                <Card
+                  shadow={5}
+                  style={{ minWidth: "450", height: "350", margin: "auto" }}
+                >
                   <CardTitle
                     style={{
                       color: "#fff",

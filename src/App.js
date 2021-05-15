@@ -23,8 +23,9 @@ function App() {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer>
             <Navigation>
+              <Link to="/">Home</Link>
               <a
                 href=" https://cloudykirby.github.io/Kirby%20Chen%20Resume.pdf"
                 target="_blank"
